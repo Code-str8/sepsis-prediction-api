@@ -1,2 +1,15 @@
+
 /outline 5.txt
+<<<<<<< HEAD
 **/__pycache__
+=======
+/__pycache__
+
+
+/outline 5.txt
+/__pycache__
+
+
+ 
+
+>>>>>>> main
