@@ -4,8 +4,8 @@ import pandas as pd
 import joblib
 
 #load the model&encoder
-svm_model = joblib.load('models\svm_pipeline.joblib')
-encoder = joblib.load('models\LabelEncoder.joblib')
+svm_model = joblib.load('models/svm_pipeline.joblib')
+encoder = joblib.load('models/LabelEncoder.joblib')
 
 class sepssis(BaseModel):
       PRG:int

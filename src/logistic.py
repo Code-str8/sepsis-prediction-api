@@ -4,8 +4,8 @@ import pandas as pd
 import joblib
 
 #load the model&encoder
-logistic_model = joblib.load('models\logistic_pipeline.joblib')
-encoder = joblib.load('models\LabelEncoder.joblib')
+logistic_model = joblib.load('models/logistic_pipeline.joblib')
+encoder = joblib.load('models/LabelEncoder.joblib')
 
 class sepssis(BaseModel):
       PRG:int
